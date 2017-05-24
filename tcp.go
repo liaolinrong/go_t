@@ -171,7 +171,7 @@ func StartClient(tcpaddr string) {
 ////////////////////////////////////////////////////////  
 func main(){
     if len(os.Args) != 3 {
-        fmt.Println("Wrong pare")
+        fmt.Println("Wrong param")
         os.Exit(0)
     }
 
